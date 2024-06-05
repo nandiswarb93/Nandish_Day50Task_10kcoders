@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <h1>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+    <h1>4</h1>
+    <h1>5</h1>
+    <h1>6</h1>
+    <h1>7</h1>
+    <h1>8</h1>
+    <h1>9</h1>
+    <h1>10</h1>
+
+
+    <script>
+
+var a = document.querySelectorAll("h1")
+for(i=0;i<a.length;i++)
+{ 
+
+    if(i%2 == 0)
+    {
+        a[i].style.color="red"
+        console.log(a[i].innerText)
+    }
+    else{
+        a[i].style.color="yellow"
+        console.log(a[i].innerText)
+    }
+}
+
+
+    </script>
+</body>
+</html>
